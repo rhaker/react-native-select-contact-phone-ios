@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFDEF1361BDAA3DA002525EA /* RNSelectContactPhone.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DFDEF1351BDAA3DA002525EA /* RNSelectContactPhone.h */; };
+		DFDEF1381BDAA3DA002525EA /* RNSelectContactPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDEF1371BDAA3DA002525EA /* RNSelectContactPhone.m */; };
+		DFDEF13E1BDAA3DB002525EA /* libRNSelectContactPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDEF1321BDAA3DA002525EA /* libRNSelectContactPhone.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFDEF13F1BDAA3DB002525EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDEF12A1BDAA3DA002525EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDEF1311BDAA3DA002525EA;
+			remoteInfo = RNSelectContactPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFDEF1301BDAA3DA002525EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DFDEF1361BDAA3DA002525EA /* RNSelectContactPhone.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFDEF1321BDAA3DA002525EA /* libRNSelectContactPhone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSelectContactPhone.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDEF1351BDAA3DA002525EA /* RNSelectContactPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSelectContactPhone.h; sourceTree = "<group>"; };
+		DFDEF1371BDAA3DA002525EA /* RNSelectContactPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSelectContactPhone.m; sourceTree = "<group>"; };
+		DFDEF13D1BDAA3DB002525EA /* RNSelectContactPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNSelectContactPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDEF1431BDAA3DB002525EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFDEF12F1BDAA3DA002525EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDEF13A1BDAA3DB002525EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDEF13E1BDAA3DB002525EA /* libRNSelectContactPhone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFDEF1291BDAA3DA002525EA = {
+			isa = PBXGroup;
+			children = (
+				DFDEF1341BDAA3DA002525EA /* RNSelectContactPhone */,
+				DFDEF1411BDAA3DB002525EA /* RNSelectContactPhoneTests */,
+				DFDEF1331BDAA3DA002525EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFDEF1331BDAA3DA002525EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFDEF1321BDAA3DA002525EA /* libRNSelectContactPhone.a */,
+				DFDEF13D1BDAA3DB002525EA /* RNSelectContactPhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFDEF1341BDAA3DA002525EA /* RNSelectContactPhone */ = {
+			isa = PBXGroup;
+			children = (
+				DFDEF1351BDAA3DA002525EA /* RNSelectContactPhone.h */,
+				DFDEF1371BDAA3DA002525EA /* RNSelectContactPhone.m */,
+			);
+			path = RNSelectContactPhone;
+			sourceTree = "<group>";
+		};
+		DFDEF1411BDAA3DB002525EA /* RNSelectContactPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFDEF1421BDAA3DB002525EA /* Supporting Files */,
+			);
+			path = RNSelectContactPhoneTests;
+			sourceTree = "<group>";
+		};
+		DFDEF1421BDAA3DB002525EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFDEF1431BDAA3DB002525EA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFDEF1311BDAA3DA002525EA /* RNSelectContactPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDEF1461BDAA3DB002525EA /* Build configuration list for PBXNativeTarget "RNSelectContactPhone" */;
+			buildPhases = (
+				DFDEF12E1BDAA3DA002525EA /* Sources */,
+				DFDEF12F1BDAA3DA002525EA /* Frameworks */,
+				DFDEF1301BDAA3DA002525EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNSelectContactPhone;
+			productName = RNSelectContactPhone;
+			productReference = DFDEF1321BDAA3DA002525EA /* libRNSelectContactPhone.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFDEF13C1BDAA3DB002525EA /* RNSelectContactPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDEF1491BDAA3DB002525EA /* Build configuration list for PBXNativeTarget "RNSelectContactPhoneTests" */;
+			buildPhases = (
+				DFDEF1391BDAA3DB002525EA /* Sources */,
+				DFDEF13A1BDAA3DB002525EA /* Frameworks */,
+				DFDEF13B1BDAA3DB002525EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDEF1401BDAA3DB002525EA /* PBXTargetDependency */,
+			);
+			name = RNSelectContactPhoneTests;
+			productName = RNSelectContactPhoneTests;
+			productReference = DFDEF13D1BDAA3DB002525EA /* RNSelectContactPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFDEF12A1BDAA3DA002525EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = rhaker;
+				TargetAttributes = {
+					DFDEF1311BDAA3DA002525EA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DFDEF13C1BDAA3DB002525EA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = DFDEF12D1BDAA3DA002525EA /* Build configuration list for PBXProject "RNSelectContactPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFDEF1291BDAA3DA002525EA;
+			productRefGroup = DFDEF1331BDAA3DA002525EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFDEF1311BDAA3DA002525EA /* RNSelectContactPhone */,
+				DFDEF13C1BDAA3DB002525EA /* RNSelectContactPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFDEF13B1BDAA3DB002525EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFDEF12E1BDAA3DA002525EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDEF1381BDAA3DA002525EA /* RNSelectContactPhone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDEF1391BDAA3DB002525EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFDEF1401BDAA3DB002525EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDEF1311BDAA3DA002525EA /* RNSelectContactPhone */;
+			targetProxy = DFDEF13F1BDAA3DB002525EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFDEF1441BDAA3DB002525EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"($(SRCROOT)/node_modules/react-native/React/**",
+					"($(SRCROOT)/../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFDEF1451BDAA3DB002525EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"($(SRCROOT)/node_modules/react-native/React/**",
+					"($(SRCROOT)/../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFDEF1471BDAA3DB002525EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"($(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFDEF1481BDAA3DB002525EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"($(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFDEF14A1BDAA3DB002525EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNSelectContactPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFDEF14B1BDAA3DB002525EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNSelectContactPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFDEF12D1BDAA3DA002525EA /* Build configuration list for PBXProject "RNSelectContactPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDEF1441BDAA3DB002525EA /* Debug */,
+				DFDEF1451BDAA3DB002525EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDEF1461BDAA3DB002525EA /* Build configuration list for PBXNativeTarget "RNSelectContactPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDEF1471BDAA3DB002525EA /* Debug */,
+				DFDEF1481BDAA3DB002525EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFDEF1491BDAA3DB002525EA /* Build configuration list for PBXNativeTarget "RNSelectContactPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDEF14A1BDAA3DB002525EA /* Debug */,
+				DFDEF14B1BDAA3DB002525EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFDEF12A1BDAA3DA002525EA /* Project object */;
+}
