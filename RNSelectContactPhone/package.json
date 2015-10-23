@@ -1,7 +1,7 @@
 {
   "name": "react-native-select-contact-phone-ios",
   "version": "0.1.0",
-  "description": "A react-native interface for selecting a contact and returning a phone number. Uses promises.",
+  "description": "A react-native interface for selecting a contact and returning a phone number. Uses async promises (ios8 or higher only).",
   "main": "index.ios.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,9 @@
     "react-component",
     "react-native",
     "ios",
-    "addressbook",
     "contact",
-    "phone",
+    "addressbook",
+    "phone number"
   ],
   "repository": {
     "type": "git",
