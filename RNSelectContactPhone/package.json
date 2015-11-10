@@ -1,6 +1,6 @@
 {
   "name": "react-native-select-contact-phone-ios",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A react-native interface for selecting a contact and returning a phone number. Uses async promises (ios8 or higher only).",
   "main": "index.ios.js",
   "scripts": {
@@ -24,8 +24,8 @@
     "url": "https://github.com/rhaker/react-native-select-contact-phone-ios/issues"
   },
   "homepage": "https://github.com/rhaker/react-native-select-contact-phone-ios",
-  "dependencies": {
-    "react-native": "^0.12.0"
+  "peerDependencies": {
+    "react-native": ">=0.12.0"
   },
   "devDependencies": {}
 }
