@@ -38,7 +38,7 @@ RCT_EXPORT_METHOD(selectPhone:(BOOL *)boolType
     // check that ios is version 8.0 or higher
     if (ver_float < 8.0) {
         
-        reject(error);
+        reject(@"500", @"ios8 or higher required", error);
         
     } else {
         
@@ -54,7 +54,7 @@ RCT_EXPORT_METHOD(selectPhone:(BOOL *)boolType
                                 NSLocalizedDescriptionKey:@"Permissions denied by user."
                                 }];
             
-            reject(error);
+            reject(@"500", @"Permissions denied by user.", error);
             
         } else if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusAuthorized){
             
@@ -81,7 +81,7 @@ RCT_EXPORT_METHOD(selectPhone:(BOOL *)boolType
                                                        NSLocalizedDescriptionKey:@"Permissions denied by user."
                                                        }];
                     
-                    reject(errorDenied);
+                    reject(@"500", @"Permissions denied by user.", errorDenied);
                     return;
                 }
                 
