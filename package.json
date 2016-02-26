@@ -1,0 +1,41 @@
+{
+  "author": {
+    "email": "email@example.com",
+    "name": "rhaker",
+    "url": "http://github.com/rhaker"
+  },
+  "bugs": {
+    "url": "https://github.com/rhaker/react-native-select-contact-phone-ios/issues"
+  },
+  "dependencies": {},
+  "description": "A react-native interface for selecting a contact and returning a phone number. Uses async promises (ios8 or higher only).",
+  "devDependencies": {},
+  "directories": {},
+  "homepage": "https://github.com/rhaker/react-native-select-contact-phone-ios",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "contact",
+    "addressbook",
+    "phone number"
+  ],
+  "license": "MIT",
+  "main": "index.ios.js",
+  "maintainers": [
+    {
+      "email": "email@example.com",
+      "name": "rhaker"
+    }
+  ],
+  "name": "react-native-select-contact-phone-ios",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:rhaker/react-native-select-contact-phone-ios.git"
+  },
+  "version": "0.3.1"
+}
